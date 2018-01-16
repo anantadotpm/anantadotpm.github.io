@@ -55,8 +55,14 @@ a {
   height: 60%;
 }
 
+@media screen and (max-width: 768px) {
+    p {
+    font-size: 1.5em;
+}
+}
+
 @media screen and (max-width: 480px) {
     p {
-    font-size: 1em;
+    font-size: 1.7em;
 }
 }
