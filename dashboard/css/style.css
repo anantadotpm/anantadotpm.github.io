@@ -174,7 +174,7 @@ td {
   /* Standard */
   left: calc(60% - 1px);
   height: calc(6% + 2px);
-  width: 40%;
+  width: calc(40% + 2px);
   vertical-align: middle;
 }
 
@@ -195,7 +195,7 @@ td {
   /* Standard */
   left: calc(60% - 1px);
   height: calc(6% + 2px);
-  width: 40%;
+  width: calc(40% + 2px);
   vertical-align: middle;
 }
 
@@ -216,7 +216,7 @@ td {
   /* Standard */
   left: calc(60% - 1px);
   height: calc(6% + 2px);
-  width: 40%;
+  width: calc(40% + 2px);
   vertical-align: middle;
 }
 
