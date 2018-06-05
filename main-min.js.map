@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/javascript/main.js"],"names":["$","bgswitcher","images","effect"],"mappings":"YAAAA,GAAE,cAAcC,YACZC,QAAS,iBAAkB,kBAC3BC,OAAQ","file":"main-min.js","sourcesContent":["$(\".dashboard\").bgswitcher({\n    images: [\"../img/bg1.jpg\", \"../img/bg2.jpg\"], // Background images\n    effect: \"drop\" // fade, blind, clip, slide, drop, hide\n  });"]}
