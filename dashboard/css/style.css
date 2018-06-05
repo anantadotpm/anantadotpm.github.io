@@ -125,11 +125,8 @@ tr {
 }
 
 td {
-  padding-top: 5.5rem;
-  padding-bottom: 5.5rem;
-  padding-left: 3.5rem;
-  padding-right: 20rem;
-  width: 400%;
+  width: 40vw;
+  height: 10vh;
   border: 1px solid black;
 }
 
@@ -155,13 +152,14 @@ td {
   /* Standard */
   top: calc(12% - 1px);
   left: 0;
-  height: 12%;
+  height: calc(12% + 2px);
   width: 60%;
   vertical-align: middle;
 }
 
-.scores {
+.score1 {
   background-color: white;
+  border: 1px solid black;
   position: absolute;
   /* Firefox */
   /* WebKit */
@@ -175,7 +173,49 @@ td {
   left: -o-calc(60% - 1px);
   /* Standard */
   left: calc(60% - 1px);
-  height: 25%;
+  height: calc(6% + 2px);
+  width: 40%;
+  vertical-align: middle;
+}
+
+.score2 {
+  background-color: white;
+  border: 1px solid black;
+  position: absolute;
+  /* Firefox */
+  /* WebKit */
+  /* Opera */
+  top: -o-calc(18% - 1px);
+  /* Standard */
+  top: calc(18% - 1px);
+  /* Firefox */
+  /* WebKit */
+  /* Opera */
+  left: -o-calc(60% - 1px);
+  /* Standard */
+  left: calc(60% - 1px);
+  height: calc(6% + 2px);
+  width: 40%;
+  vertical-align: middle;
+}
+
+.score3 {
+  background-color: white;
+  border: 1px solid black;
+  position: absolute;
+  /* Firefox */
+  /* WebKit */
+  /* Opera */
+  top: -o-calc(32% - 1px);
+  /* Standard */
+  top: calc(24% - 1px);
+  /* Firefox */
+  /* WebKit */
+  /* Opera */
+  left: -o-calc(60% - 1px);
+  /* Standard */
+  left: calc(60% - 1px);
+  height: calc(6% + 2px);
   width: 40%;
   vertical-align: middle;
 }
@@ -189,13 +229,9 @@ td {
   /* Firefox */
   /* WebKit */
   /* Opera */
-  top: -o-calc(37% - 1px);
+  top: -o-calc(42% - 1px);
   /* Standard */
-  top: calc(37% - 1px);
-}
-
-#calendar {
-  top: 60%;
+  top: calc(42% - 1px);
 }
 
 .welcometext {
@@ -220,20 +256,12 @@ td {
   font-size: 12rem;
 }
 
-.weatherwidget-io {
-  font-family: "IBM Plex Sans", sans-serif;
-}
-
-.weatherwidget-io-frame {
-  font-family: "IBM Plex Sans", sans-serif;
-}
-
-#weatherwidget-io-frame {
-  font-family: "IBM Plex Sans", sans-serif;
-}
-
-iframe {
-  font-family: "IBM Plex Sans", sans-serif;
+.welcometext4 {
+  position: relative;
+  margin-top: 8%;
+  margin-left: 56px;
+  font-size: 3.5rem;
+  font-weight: 200;
 }
 
 body {

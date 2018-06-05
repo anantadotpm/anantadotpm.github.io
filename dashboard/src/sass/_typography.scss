@@ -20,18 +20,10 @@
     font-size: 12rem;
   }
 
-  .weatherwidget-io {
-    font-family: $primary_Font;
-  }
-
-  .weatherwidget-io-frame {
-    font-family: $primary_Font;
-  }
-
-  #weatherwidget-io-frame {
-    font-family: $primary_Font;
-  }
-
-  iframe {
-    font-family: $primary_Font;
+  .welcometext4 {
+    position: relative;
+    margin-top: 8%;
+    margin-left: 56px;
+    font-size: 3.5rem;
+    font-weight: 200;
   }
