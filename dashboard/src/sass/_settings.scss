@@ -1,0 +1,29 @@
+// Typography
+// ----------------------------------------
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400');
+
+// Fonts
+$primary_Font:  'IBM Plex Sans', sans-serif;
+$bodyText_Font: 'IBM Plex Sans', sans-serif;
+
+// Size
+$defaultFontSize: 1.8rem;
+
+// Linehight
+$defaultLineHeight: 1.4;
+
+// Colors
+// ----------------------------------------
+
+$black: #1b1b1b;
+$white: white;
+
+$dark: #323232;
+$greyText: #A9A9A9;
+
+$primaryGreen: #008571;
+$secondaryGreen: #b2d8b3;
+
+
+$transition1: cubic-bezier(.62,.02,.4,.99);

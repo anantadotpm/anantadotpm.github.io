@@ -1,0 +1,2 @@
+"use strict";window.addEventListener("load",function(){function e(e){for(var r=0;r<t.length;r++)t[r].classList.remove("active");e.currentTarget.classList.add("active"),e.preventDefault();var a=document.querySelectorAll(".tab-pane");for(r=0;r<a.length;r++)a[r].classList.remove("active");var i=e.target,c=i.getAttribute("href");document.querySelector(c).classList.add("active")}var t=document.querySelectorAll("ul.nav-tabs > li");for(i=0;i<t.length;i++)t[i].addEventListener("click",e)});
+//# sourceMappingURL=./table-min.js.map

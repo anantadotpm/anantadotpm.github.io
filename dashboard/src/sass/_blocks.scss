@@ -1,0 +1,33 @@
+.welcome {
+    background-color: #FAECA9;
+    border: 1px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10%;
+    width: 40%;
+    vertical-align: middle;
+  }
+
+  .time {
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    /* Firefox */
+top: -moz-calc(10% - 1px);
+/* WebKit */
+top: -webkit-calc(10% - 1px);
+/* Opera */
+top: -o-calc(10% - 1px);
+/* Standard */
+top: calc(10% - 1px);
+    left: 0;
+    height: 12%;
+    width: 40%;
+    vertical-align: middle;
+  }
+
+  .weatherwidget-io {
+    border: 1px solid black;
+    top: 50%;
+  }

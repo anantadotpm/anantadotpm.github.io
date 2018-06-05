@@ -1,0 +1,77 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Dashboard</title>
+
+    <meta name="description" content="Project description">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="">
+
+    <!-- Generate favicons with https://realfavicongenerator.net/ -->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/jquery.bgswitcher.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+</head>
+
+
+<body class="dashboard" onload="startTime()">
+
+        <div class="welcome">
+            <h1 class="welcometext2">
+                Welcome!
+            </h1>
+            <h2 class="welcometext">
+                    <script type="text/javascript">
+                        var d=new Date()
+                        var weekday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday",
+                                    "Friday","Saturday")
+                        document.write("It is " + weekday[d.getDay()] + " my dudes.")
+                    </script>
+            </h2>
+        </div>
+
+        <div class="time">
+                <h1 class="welcometext3" id="txt">
+                        <script type="text/javascript">
+                       function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+                        </script>
+                </h1>
+        </div>
+
+        <a class="weatherwidget-io" href="https://forecast7.com/en/52d074d30/the-hague/" data-label_1="Den Haag" data-font="Open Sans" data-icons="Climacons Animated" data-mode="Current" data-days="3" data-theme="pure" data-accent="#ffffff" data-mooncolor="#000000" data-cloudcolor="#000000" data-cloudfill="#ffffff" >Den Haag</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+    
+<script src="js/main-min.js"></script>
+
+
+</body>
+
+
+</html>

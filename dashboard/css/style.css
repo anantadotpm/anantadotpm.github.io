@@ -1,0 +1,172 @@
+/* Examples
+____________________________________________________________________________________
+You can select the type of media query you want to create: maxMin, min or max.
+Use predefined variables (device sizes) or simple px / em values.
+Keep in mind that the default min and max value is set to 0.
+Tip!
+You can do something like @include bp( max, $desktop - 1px ) to apply the styling to screensize below the desktop.
+____________________________________________________________________________________
+---> SCSS to CSS: <----
+@include bp( maxMin, $desktop, 600px ) = 
+@media only screen and ( max-width: 1280px ) and ( min-width: 600px ){
+    content
+}
+____________________________________________________________________________________
+@include bp( min, $phone ) = 
+@media only screen and (min-width: 480px ){
+    content
+}
+____________________________________________________________________________________
+@include bp( max, 800px ) = 
+@media only screen and ( max-width: 800px ){
+    content
+}
+*/
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400");
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  font-weight: 400;
+  position: relative;
+  overflow-x: hidden;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  color: lime;
+}
+
+img,
+embed,
+object,
+audio,
+video {
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+  text-align: left;
+}
+
+.welcome {
+  background-color: #FAECA9;
+  border: 1px solid black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10%;
+  width: 40%;
+  vertical-align: middle;
+}
+
+.time {
+  background-color: white;
+  border: 1px solid black;
+  position: absolute;
+  /* Firefox */
+  /* WebKit */
+  /* Opera */
+  top: -o-calc(10% - 1px);
+  /* Standard */
+  top: calc(10% - 1px);
+  left: 0;
+  height: 12%;
+  width: 40%;
+  vertical-align: middle;
+}
+
+.weatherwidget-io {
+  border: 1px solid black;
+  top: 50%;
+}
+
+.welcometext {
+  position: relative;
+  margin-left: 10%;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.welcometext2 {
+  position: relative;
+  margin-left: 10%;
+  margin-top: 10%;
+  font-size: 20px;
+}
+
+.welcometext3 {
+  position: relative;
+  margin: 5% 10% 5% 10%;
+  font-size: 64px;
+}
+
+.weatherwidget-io {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+body {
+  font-family: "IBM Plex Sans", serif;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  font-weight: 400;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.dashboard {
+  width: 540px;
+  height: 960px;
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=style.css.map */

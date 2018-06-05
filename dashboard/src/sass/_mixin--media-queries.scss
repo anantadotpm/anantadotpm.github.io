@@ -1,0 +1,64 @@
+
+// px to em
+// ----------------------------------------
+// Only use this function for the device size variables
+@function pxem( $pixels ) {
+    @return $pixels / 16 + em;
+}    
+// Device Breakpoints
+// ----------------------------------------
+$phone:         pxem( 480 );
+$phablet:       pxem( 600 );
+$tablet:        pxem( 960 );
+$desktop:       pxem( 1280 );
+$widescreen:    pxem( 1440 );
+// Media Querie Mixin
+// ----------------------------------------
+@mixin mq( $type, $first:0, $second:0 ) {
+    // type = minMax : between max and min screensize
+    //__________________________________________________________
+    @if( $type == maxMin ){
+        @media only screen and ( max-width: $first ) and ( min-width: $second ){
+            @content;
+        }
+    } 
+    // type = min : min screensize and above
+    //__________________________________________________________
+    @if( $type == min ){
+        @media only screen and ( min-width: $first ){
+            @content;
+        }
+    } 
+    // type = max : max screensize and below
+    //__________________________________________________________
+    @if( $type == max ){
+        @media only screen and ( max-width: $first ){
+            @content;
+        }
+    } 
+}
+
+/* Examples
+____________________________________________________________________________________
+You can select the type of media query you want to create: maxMin, min or max.
+Use predefined variables (device sizes) or simple px / em values.
+Keep in mind that the default min and max value is set to 0.
+Tip!
+You can do something like @include bp( max, $desktop - 1px ) to apply the styling to screensize below the desktop.
+____________________________________________________________________________________
+---> SCSS to CSS: <----
+@include bp( maxMin, $desktop, 600px ) = 
+@media only screen and ( max-width: 1280px ) and ( min-width: 600px ){
+    content
+}
+____________________________________________________________________________________
+@include bp( min, $phone ) = 
+@media only screen and (min-width: 480px ){
+    content
+}
+____________________________________________________________________________________
+@include bp( max, 800px ) = 
+@media only screen and ( max-width: 800px ){
+    content
+}
+*/

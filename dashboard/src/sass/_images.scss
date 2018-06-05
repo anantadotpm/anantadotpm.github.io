@@ -1,0 +1,27 @@
+.img-slider {
+    /* The image used */
+    background-image: url("");
+
+    /* Full height */
+    // height: 50vh; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+
+    margin: 10% 0 10% 0;
+}
+
+.img-txt {
+    
+    margin-left: 20%;
+    // width: 100%;
+    height: 60vh;
+}
+
+#maps {
+    margin-left: 10%;
+}
