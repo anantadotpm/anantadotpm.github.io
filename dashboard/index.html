@@ -36,7 +36,7 @@
                         var d=new Date()
                         var weekday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday",
                                     "Friday","Saturday")
-                        document.write("It is " + weekday[d.getDay()] + " my dudes.")
+                        document.write("It's " + weekday[d.getDay()] + " today.")
                     </script>
             </h2>
         </div>
@@ -52,7 +52,7 @@
     m = checkTime(m);
     s = checkTime(s);
     document.getElementById('txt').innerHTML =
-    h + ":" + m;
+    h + ":" + m + ":" + s;
     var t = setTimeout(startTime, 500);
 }
 function checkTime(i) {
@@ -63,14 +63,13 @@ function checkTime(i) {
                 </h1>
         </div>
 
-        <a class="weatherwidget-io" href="https://forecast7.com/en/52d074d30/the-hague/" data-label_1="Den Haag" data-font="Open Sans" data-icons="Climacons Animated" data-mode="Current" data-days="3" data-theme="pure" data-accent="#ffffff" data-mooncolor="#000000" data-cloudcolor="#000000" data-cloudfill="#ffffff" >Den Haag</a>
-<script>
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-</script>
+        <div class="weather">
+            <h1 class="welcometext">
+                    <i class="fas fa-cloud"></i> &emsp; Partly cloudy, feels like 21<sup>0</sup>
+            </h1>
+        </div>
     
 <script src="js/main-min.js"></script>
-
-
 </body>
 
 
