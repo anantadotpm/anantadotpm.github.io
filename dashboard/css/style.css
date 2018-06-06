@@ -355,7 +355,7 @@ td {
   left: -o-calc(60% - 1px);
   /* Standard */
   left: calc(60% - 1px);
-  top: calc(54% - 1px);
+  top: calc(54% - 2px);
 }
 
 .amsterdam {
