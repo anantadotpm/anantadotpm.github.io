@@ -1,3 +1,7 @@
+html {
+  background-color: white;
+}
+
 body {
     font-family: "IBM Plex Sans", serif;
     font-size: 1.8rem;
@@ -5,12 +9,14 @@ body {
     font-weight: 400;
     position: relative;
     overflow-x: hidden;
+    border: 1px solid black;
   }
   
   .dashboard {
+    overflow: hidden;
     width: 1080px;
     height: 1920px;
-    background-color: black;
+    background-color: #ea5050;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

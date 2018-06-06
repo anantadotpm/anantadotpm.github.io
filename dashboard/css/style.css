@@ -125,18 +125,17 @@ tr {
 }
 
 td {
-  width: 40vw;
+  width: calc(40% + 1px);
   height: 10vh;
-  border: 1px solid black;
 }
 
 .welcome {
   background-color: #FAECA9;
   border: 1px solid black;
   position: absolute;
-  top: 0;
+  top: calc(0% - 1px);
   left: 0;
-  height: 12%;
+  height: calc(12% + 1px);
   width: 60%;
   vertical-align: middle;
 }
@@ -152,7 +151,7 @@ td {
   /* Standard */
   top: calc(12% - 1px);
   left: 0;
-  height: calc(12% + 2px);
+  height: calc(12% + 1px);
   width: 60%;
   vertical-align: middle;
 }
@@ -215,23 +214,178 @@ td {
   left: -o-calc(60% - 1px);
   /* Standard */
   left: calc(60% - 1px);
-  height: calc(6% + 2px);
+  height: calc(6% + 1px);
   width: calc(40% + 2px);
   vertical-align: middle;
 }
 
 .weather {
   border: 1px solid black;
+  background-color: #FAECA9;
+  height: calc(6% + 2px);
+  width: calc(100% + 2px);
+  position: absolute;
+  left: 0;
+  /* Firefox */
+  /* WebKit */
+  /* Opera */
+  top: -o-calc(30% - 2px);
+  /* Standard */
+  top: calc(30% - 2px);
+}
+
+.nowplaying1 {
+  border: 1px solid black;
+  background-color: #FAECA9;
+  height: 35%;
+  width: 60%;
+  position: absolute;
+  left: 0;
+  bottom: 12%;
+}
+
+.nowplaying2 {
+  border: 1px solid black;
+  background-color: #FAECA9;
+  height: 15%;
+  width: 60%;
+  position: absolute;
+  left: 0;
+  bottom: calc(0% - 1px);
+}
+
+.upnextmain {
+  background-color: #FAECA9;
+  border: 1px solid black;
+  position: absolute;
+  bottom: calc(0% - 1px);
+  left: 0;
+  height: calc(12% + 1px);
+  padding-top: 4%;
+  width: calc(35% + 1px);
+  vertical-align: middle;
+}
+
+.upnext1 {
   background-color: white;
-  height: 6%;
-  width: 100%;
+  border: 1px solid black;
+  position: absolute;
+  /* Firefox */
+  bottom: calc(6% - 2px);
+  /* Firefox */
+  /* WebKit */
+  /* Opera */
+  left: -o-calc(35% - 1px);
+  /* Standard */
+  left: calc(35% - 1px);
+  height: calc(6% + 2px);
+  width: calc(65% + 2px);
+}
+
+.upnext2 {
+  background-color: white;
+  border: 1px solid black;
+  position: absolute;
+  /* Firefox */
+  bottom: calc(0% - 1px);
+  /* Firefox */
+  /* WebKit */
+  /* Opera */
+  left: -o-calc(35% - 1px);
+  /* Standard */
+  left: calc(35% - 1px);
+  height: calc(6% + 1px);
+  width: calc(65% + 2px);
+}
+
+.thehague {
+  border: 1px solid black;
+  background-color: #FAECA9;
+  height: calc(6% + 1px);
+  width: calc(40% + 2px);
   position: absolute;
   /* Firefox */
   /* WebKit */
   /* Opera */
-  top: -o-calc(42% - 1px);
+  left: -o-calc(60% - 1px);
   /* Standard */
+  left: calc(60% - 1px);
+  top: calc(36% - 1px);
+}
+
+.attendance1 {
+  border: 1px solid black;
+  background-color: white;
+  height: calc(6% + 2px);
+  width: calc(40% + 2px);
+  position: absolute;
+  /* Firefox */
+  /* WebKit */
+  /* Opera */
+  left: -o-calc(60% - 1px);
+  /* Standard */
+  left: calc(60% - 1px);
   top: calc(42% - 1px);
+}
+
+.out {
+  border: 1px solid black;
+  background-color: #FAECA9;
+  height: calc(6% + 1px);
+  width: calc(40% + 2px);
+  position: absolute;
+  /* Firefox */
+  /* WebKit */
+  /* Opera */
+  left: -o-calc(60% - 1px);
+  /* Standard */
+  left: calc(60% - 1px);
+  top: calc(48% - 1px);
+}
+
+.attendance2 {
+  border: 1px solid black;
+  background-color: white;
+  height: calc(6% + 2px);
+  width: calc(40% + 2px);
+  position: absolute;
+  /* Firefox */
+  /* WebKit */
+  /* Opera */
+  left: -o-calc(60% - 1px);
+  /* Standard */
+  left: calc(60% - 1px);
+  top: calc(54% - 1px);
+}
+
+.amsterdam {
+  border: 1px solid black;
+  background-color: #FAECA9;
+  height: calc(6% + 1px);
+  width: calc(40% + 2px);
+  position: absolute;
+  /* Firefox */
+  /* WebKit */
+  /* Opera */
+  left: -o-calc(60% - 1px);
+  /* Standard */
+  left: calc(60% - 1px);
+  top: calc(60% - 1px);
+}
+
+.attendance3 {
+  border: 1px solid black;
+  background-color: white;
+  height: calc(6% + 1px);
+  width: calc(40% + 2px);
+  position: absolute;
+  /* Firefox */
+  /* WebKit */
+  /* Opera */
+  left: -o-calc(60% - 1px);
+  /* Standard */
+  left: calc(60% - 1px);
+  top: calc(66% - 1px);
 }
 
 .welcometext {
@@ -264,6 +418,25 @@ td {
   font-weight: 200;
 }
 
+.welcometext5 {
+  position: relative;
+  margin-top: 8%;
+  margin-left: 56px;
+  font-size: 3.5rem;
+}
+
+.welcometext6 {
+  position: relative;
+  margin-top: 4%;
+  margin-left: 56px;
+  font-size: 3.5rem;
+  font-weight: 200;
+}
+
+html {
+  background-color: white;
+}
+
 body {
   font-family: "IBM Plex Sans", serif;
   font-size: 1.8rem;
@@ -271,12 +444,14 @@ body {
   font-weight: 400;
   position: relative;
   overflow-x: hidden;
+  border: 1px solid black;
 }
 
 .dashboard {
+  overflow: hidden;
   width: 1080px;
   height: 1920px;
-  background-color: black;
+  background-color: #ea5050;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

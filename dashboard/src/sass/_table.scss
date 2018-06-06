@@ -3,7 +3,7 @@ tr {
 }
 
 td {
-    width: 40vw;
+    width: calc(40% + 1px);
     height: 10vh;
-    border: 1px solid black;
+    // border: 1px solid black;
 }
