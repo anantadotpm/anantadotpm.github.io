@@ -444,14 +444,12 @@ body {
   font-weight: 400;
   position: relative;
   overflow-x: hidden;
-  border: 1px solid black;
 }
 
 .dashboard {
   overflow: hidden;
   width: 1080px;
   height: 1920px;
-  background-color: #ea5050;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
