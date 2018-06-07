@@ -2,7 +2,7 @@
     background-color: #FAECA9;
     border: 1px solid black;
     position: absolute;
-    top: calc(0% - 1px);
+    top: 0%;
     left: 0;
     height: calc(12% + 1px);
     width: 60%;
@@ -53,7 +53,7 @@ left: -o-calc(60% - 1px);
 /* Standard */
 left: calc(60% - 1px);
     height: calc(6% + 2px);
-    width: calc(40% + 2px);
+    width: calc(40% + 1px);
     vertical-align: middle;
   }
 
@@ -78,7 +78,7 @@ left: -o-calc(60% - 1px);
 /* Standard */
 left: calc(60% - 1px);
 height: calc(6% + 2px);
-width: calc(40% + 2px);
+width: calc(40% + 1px);
     vertical-align: middle;
   }
 
@@ -102,8 +102,8 @@ left: -webkit-calc(60% - 1px);
 left: -o-calc(60% - 1px);
 /* Standard */
 left: calc(60% - 1px);
-    height: calc(6% + 1px);
-    width: calc(40% + 2px);
+    height: calc(6% + 2px);
+    width: calc(40% + 1px);
     vertical-align: middle;
   }
 
@@ -111,7 +111,7 @@ left: calc(60% - 1px);
     border: 1px solid black;
     background-color: #FAECA9;
     height: calc(6% + 2px);
-    width: calc(100% + 2px);
+    width: 100%;
     position: absolute;
     left: 0;
     /* Firefox */
@@ -142,14 +142,14 @@ top: calc(30% - 2px);
     width: 60%;
     position: absolute;
     left: 0;
-    bottom: calc(0% - 1px);
+    bottom: 0%;
   }
 
   .upnextmain {
     background-color: #FAECA9;
     border: 1px solid black;
     position: absolute;
-    bottom: calc(0% - 1px);
+    bottom: 0;
     left: 0;
     height: calc(12% + 1px);
     padding-top: 4%;
@@ -177,7 +177,7 @@ left: -o-calc(35% - 1px);
 /* Standard */
 left: calc(35% - 1px);
     height: calc(6% + 2px);
-    width: calc(65% + 2px);
+    width: calc(65% + 1px);
   }
 
   .upnext2 {
@@ -185,7 +185,7 @@ left: calc(35% - 1px);
     border: 1px solid black;
     position: absolute;
     /* Firefox */
-    bottom: calc(0% - 1px);
+    bottom: 0%;
 /* Firefox */
 left: -moz-calc(35% - 1px);
 /* WebKit */
@@ -195,14 +195,14 @@ left: -o-calc(35% - 1px);
 /* Standard */
 left: calc(35% - 1px);
 height: calc(6% + 1px);
-width: calc(65% + 2px);
+width: calc(65% + 1px);
   }
 
   .thehague  {
     border: 1px solid black;
     background-color: #FAECA9;
     height: calc(6% + 1px);
-    width: calc(40% + 2px);
+    width: calc(40% + 1px);
     position: absolute;
     /* Firefox */
 left: -moz-calc(60% - 1px);
@@ -219,7 +219,7 @@ left: calc(60% - 1px);
     border: 1px solid black;
     background-color: white;
     height: calc(6% + 2px);
-    width: calc(40% + 2px);
+    width: calc(40% + 1px);
     position: absolute;
     /* Firefox */
 left: -moz-calc(60% - 1px);
@@ -236,7 +236,7 @@ left: calc(60% - 1px);
     border: 1px solid black;
     background-color: #FAECA9;
     height: calc(6% + 1px);
-    width: calc(40% + 2px);
+    width: calc(40% + 1px);
     position: absolute;
     /* Firefox */
 left: -moz-calc(60% - 1px);
@@ -253,7 +253,7 @@ left: calc(60% - 1px);
     border: 1px solid black;
     background-color: white;
     height: calc(6% + 2px);
-    width: calc(40% + 2px);
+    width: calc(40% + 1px);
     position: absolute;
     /* Firefox */
 left: -moz-calc(60% - 1px);
@@ -270,7 +270,7 @@ left: calc(60% - 1px);
     border: 1px solid black;
     background-color: #FAECA9;
     height: calc(6% + 1px);
-    width: calc(40% + 2px);
+    width: calc(40% + 1px);
     position: absolute;
     /* Firefox */
 left: -moz-calc(60% - 1px);
@@ -287,7 +287,7 @@ left: calc(60% - 1px);
     border: 1px solid black;
     background-color: white;
     height: calc(6% + 1px);
-    width: calc(40% + 2px);
+    width: calc(40% + 1px);
     position: absolute;
     /* Firefox */
 left: -moz-calc(60% - 1px);
